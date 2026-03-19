@@ -22,11 +22,11 @@ function readFile2(filename2) {
 }
  
 // Log message before reading the first file
-console.log('Before reading file-1');
+console.log('Before reading, file-1 reading in progress');
 readFile1(filename1);
  
 // Log message before reading the second file
-console.log('Before reading file-2');
+console.log('Before reading, file-2 reading in progress');
 readFile2(filename2);
  
 // Log message after reading both files
